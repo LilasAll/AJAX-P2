@@ -14,3 +14,8 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+ 
+//$('#email-table').css('width', '100px')
+
+document.getElementsByClassName("email-table").style.boxSizing = "border-box";

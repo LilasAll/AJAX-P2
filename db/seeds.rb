@@ -28,7 +28,7 @@ end
 puts "Category and Tasks created"
 
 10.times do
-	@email = Email.create!(object: Faker::Book.title, body: Faker::Lorem.paragraphs)
+	@email = Email.create!(object: Faker::Book.title, body: Faker::Lorem.sentence)
 end
 
 puts "Emails created"
